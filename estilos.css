@@ -1,12 +1,32 @@
 
 header {
-    background-color: #eeeeee;
+    background-color: #EF798A;
 }
+
+header img {
+    width: 350px;
+
+}
+
 #logo {
-    width: 250px;
+    width: 200px;
+    height: 200px;
 }
 #user {
     width: 20px;
+}
+
+.main {
+    
+    padding: 50px;
+    color: #7B0828;
+    
+}
+
+.footer img {
+    width: 20px;
+    height: 20px;
+   
 }
 
 li {
@@ -17,6 +37,7 @@ a {
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
+    color: white;
 }
 nav {
     float: right;
@@ -25,22 +46,21 @@ nav {
 }
 
 img {
-    width: 300px;
-    height: 150;
+    width: 450px;
+    height: 350px;
+    
 }
 
 .resumen {
-    float: left;
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 1000px;
 }
 
-footer {
-    background-color: #393e46;
-
+.footer {
+    background-color: #EDAFB8;
+    margin: 0;
+    color: white;
+    font-weight: bold;
 }
 
-#copyright {
-    color: honeydew;
-}
