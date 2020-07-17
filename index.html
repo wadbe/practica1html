@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wad's project</title>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="CSS/estilos.css" type="text/css">
 </head>
 <body>
     <header>
             <img id="logo" src="SVG/logo.png" alt="logo">
             <nav> 
-                <ul>
+                <ul id="NavegacionLink">
                     <li><a href="home.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                      <li><a href="iniciarsesion.html">Iniciar sesion</a></li>
@@ -21,25 +21,35 @@
             
     </header>
 <main>
-    <div class="main detail">
-    <img src="SVG/kimchi.jpg" alt="kimchi">
-    <h2>Kimchi</h2>
+    <div class="card">
+    <img class="foto" src="SVG/kimchi.jpg" alt="kimchi">
+    <div class="container">
+        <h2>Kimchi</h2>
     <p>
         El kimchi es una preparación fermentada como ingrediente básico la col china, también existen 
         otras recetas en las que se utilizan ingrediente como rábanos o pepinos, entre otros vegetales, que son ...
     </p>
+    </div>
+    
 </div>
 </main>
+<!--
+
+<button class="boton"> 
+    VER
+</button>
+
+-->
 
     <div class="footer">
          <p id="copyright">Copyright© 2020</p> 
          <img id="logofooter" src="SVG/logo.png" alt="logo">
-               <div id="logos">
-                    <img src="SVG/facebook.svg" alt="facebook">
-                    <img src="SVG/instagram.svg" alt="instagram">
-                    <img src="SVG/youtube.svg" alt="youtube"> 
-    </div>
-    </div>
+         <ul id="social">
+         <li><a href="#"><img src="SVG/facebook.svg" alt="facebook"></a></li>
+         <li><a href="https://www.instagram.com/wadb09"><img src="SVG/instagram.svg" alt="instagram"></a></li>
+         <li><a href="#"><img src="SVG/youtube.svg" alt="youtube"></a></li>
+         </ul>
     
+         
 </body>
 </html>
