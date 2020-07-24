@@ -9,47 +9,61 @@
 </head>
 <body>
     <header>
-            <img id="logo" src="SVG/logo.png" alt="logo">
+            <h1 title="wadsite"><img class="logo" src="SVG/logo.png" alt="logo"></h1>
             <nav> 
-                <ul id="NavegacionLink">
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                     <li><a href="iniciarsesion.html">Iniciar sesion</a></li>
+                <ul class="NavegacionLink">
+                    <li title="home"><a href="home.html">Home</a></li>
+                    <li title="about"><a href="about.html">About</a></li>
+                     <li title="iniciarsesion"><a href="iniciarsesion.html">Iniciar sesion</a></li>
                 </ul>
-                <img id="user" src="SVG/user.svg" alt="">
-            </nav>
+                <svg class="userlogo" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                    <title>User</title>
+                    <path d="M18 22.082v-1.649c2.203-1.241 4-4.337 4-7.432 0-4.971 0-9-6-9s-6 4.029-6 9c0 3.096 1.797 6.191 4 7.432v1.649c-6.784 0.555-12 3.888-12 7.918h28c0-4.030-5.216-7.364-12-7.918z"></path>
+                    </svg>
+                         </nav>
             
     </header>
+
+
 <main>
     <div class="card">
-    <img class="foto" src="SVG/kimchi.jpg" alt="kimchi">
-    <div class="container">
-        <h2>Kimchi</h2>
-    <p>
-        El kimchi es una preparación fermentada como ingrediente básico la col china, también existen 
-        otras recetas en las que se utilizan ingrediente como rábanos o pepinos, entre otros vegetales, que son ...
-    </p>
+         <img class="foto" src="SVG/kimchi.jpg" alt="kimchi">
+                <div class="container">
+                    <h2>Kimchi</h2>
+                     <p>El kimchi es una preparación fermentada como ingrediente básico la col china, también existen 
+                         otras recetas en las que se utilizan ingrediente como rábanos o pepinos, entre otros vegetales, que son ...
+                     </p>
     </div>
     
+    <div class="oculto">
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Corporis quae unde voluptas! Est explicabo quibusdam illo. 
+            error optio sunt in libero, commodi, ullam id exercitationem.
+        </p>
+        <button class="boton">
+            VER
+        </button>
+    </div>
+
+
 </div>
 </main>
-<!--
 
-<button class="boton"> 
-    VER
-</button>
 
--->
+    <footer class="PiePagina">
+         <p class="copyright">Copyright© 2020</p> 
+             <img class="logofooter" src="SVG/logoBN.png" alt="logo">
+                 <ul class="social">
+                         <li><a href="#"><img title="facebook" src="SVG/facebook.svg" alt="facebook">
+                       </a></li>
 
-    <div class="footer">
-         <p id="copyright">Copyright© 2020</p> 
-         <img id="logofooter" src="SVG/logo.png" alt="logo">
-         <ul id="social">
-         <li><a href="#"><img src="SVG/facebook.svg" alt="facebook"></a></li>
-         <li><a href="https://www.instagram.com/wadb09"><img src="SVG/instagram.svg" alt="instagram"></a></li>
-         <li><a href="#"><img src="SVG/youtube.svg" alt="youtube"></a></li>
-         </ul>
-    
+                           <li><a href="https://www.instagram.com/wadb09"><img title="instagram" src="SVG/instagram.svg" alt="instagram">
+                        </a></li>
+
+                           <li><a href="#"><img title="youtube" src="SVG/youtube.svg" alt="youtube">
+                        </a></li>
+                 </ul>
+    </footer>
          
 </body>
 </html>
