@@ -2,11 +2,13 @@ body {
     margin: 0;
     object-fit: cover;
     font-family: 'Nunito', sans-serif;
+    font-size: 16px;
 }
 
 /* HEADER */
 
 header {
+    height: 160px;
     background-color: #EF798A;
     background-size: cover;
     background-position: center;
@@ -19,62 +21,83 @@ header {
 }
 
 
+
 .logo {
-    height: 150px;
-    margin: 20px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .NavegacionLink {
    position: absolute;
-   top: 75px;
-   right: 70px;
+    top: 45px;
+    right: 70px;
 }
 
 .NavegacionLink li {
     display: inline;
-    font-size: 35px;
     margin-right: 40px;
    
 }
 
+.NavegacionLink li svg {
+    fill: #ffffff;
+    margin-left: 5px;
+}
+
+.NavegacionLink li svg:hover{
+    fill: #7B0828;
+    transition: 0.5s;
+
+}
+
+.NavegacionLink a {
+    font-size: 20px;
+}
+
 .NavegacionLink a:hover {
-    color: red;
+    color: #7B0828;
     transition: 0.5s;
 }
 
 a {
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
-    color: white;
+    color: #fff;
 }
 
 .userlogo {
     height: 40px;
-    position: absolute;
-    top: 88px;
-    right: 60px;
-    fill: white;
-    
+
 }
 
 
 
 /* MAIN */
 
+header {
+    height: 190px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
 .card {
-    background-color: white;
+    width: 400px;
+    background-color:#fff;
     font-family: 'Nunito', sans-serif;
-    margin: 40px 1170px 55px 50px;
     border: 3px solid #ddd;
     padding: 30px 20px;
     color: #7B0828;
-    transition: all 0.1s linear;
+    
     
 }
 
 .foto {
     width: 100%;
-    height: 277px;
     object-fit: cover;
 }
 .resumen {
@@ -84,10 +107,12 @@ a {
 }
 
 .card:hover {
-    color: rgba(0,0,0,0.8);
+    
+    border: 3px solid rgba(0,0,0,0.8) ;
     cursor: pointer;
     position: relative;
-    border: none;
+    transition: all 0.35s linear;
+    
 
 }
 .oculto {
@@ -95,7 +120,7 @@ a {
 }
 
 .oculto p {
-    color: white;
+    color: #ffffff;
     margin: 50px;
 }
 
@@ -107,20 +132,23 @@ a {
     height: 100%;
     top: 0;
     left: 0;
-    box-sizing: border;
+    box-sizing: border-box;
 }
 
 .boton {
+    color: #000000;
     background-color: #4fe989;
     border: none;
     text-decoration: none;
     display: inline-block;
-    color: black solid;
     font-weight: bolder;
     font-size: 16px;
     padding: 10px 30px;
     border-radius: 4px;
-
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     
 }
 
@@ -134,39 +162,19 @@ a {
     font-family: 'Nunito', sans-serif;
     background-color: #EDAFB8;
     background-position: center;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0;
-    margin: 0;
-    position: relative;
+    padding: 20px;
+   
    
 }
 
 .logofooter {
     height: 70px;
-    margin: 1px;
-    position: absolute;
-    right: 50%;
     
-    
-}
-
-.copyright {
-    margin-left: 24px;
-    font-size: 32px;
-    padding: 0;
-}
-
-.social {
-    position: absolute;
-    right: 50px;
-    top: 34px;
-    padding: 0;
-    margin: 0
 }
 
 .social li {
@@ -175,11 +183,15 @@ a {
     
 }
 
-.RedSocialLogo {
-    position: absolute;
-     
+.social li svg {
+    width: 30px;
+    fill: #ffffff;
 }
 
+.social li svg:hover {
+    fill: #7B0828;
+    transition: 0.5s;
+}
 
 
 
