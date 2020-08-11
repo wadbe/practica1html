@@ -2,13 +2,13 @@ body {
     margin: 0;
     object-fit: cover;
     font-family: 'Nunito', sans-serif;
-    font-size: 16px;
+    font-size: 100%;
 }
 
 /* HEADER */
 
 header {
-    height: 160px;
+    height: 160rem;
     background-color: #EF798A;
     background-size: cover;
     background-position: center;
@@ -23,26 +23,28 @@ header {
 
 
 .logo {
-    height: 100px;
-    margin-left: 20px;
-    margin-top: 10px;
+    height: 6.25rem;
+    margin-left: 1.25rem;
+    margin-top: 0.625rem;
 }
 
 .NavegacionLink {
    position: absolute;
-    top: 45px;
-    right: 70px;
+    top: 2.813rem;
+    right: 4.375rem;
 }
 
 .NavegacionLink li {
     display: inline;
-    margin-right: 40px;
+    margin-right: 2.5rem;
    
 }
 
 .NavegacionLink li svg {
+    height: 2.188rem;
     fill: #ffffff;
-    margin-left: 5px;
+    margin-left: 0.313rem;
+
 }
 
 .NavegacionLink li svg:hover{
@@ -52,7 +54,7 @@ header {
 }
 
 .NavegacionLink a {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .NavegacionLink a:hover {
@@ -67,7 +69,7 @@ a {
 }
 
 .userlogo {
-    height: 40px;
+    height: 2.5rem;
 
 }
 
@@ -76,21 +78,21 @@ a {
 /* MAIN */
 
 header {
-    height: 190px;
+    height: 11.875rem;
 }
 
 main {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 1.875rem;
 }
 
 .card {
-    width: 400px;
+    width: 25rem;
     background-color:#fff;
     font-family: 'Nunito', sans-serif;
-    border: 3px solid #ddd;
-    padding: 30px 20px;
+    border: 0.188rem solid #ddd;
+    padding: 1.875rem 1.25rem;
     color: #7B0828;
     
     
@@ -101,14 +103,14 @@ main {
     object-fit: cover;
 }
 .resumen {
-    margin-top: 50px;
-    margin-left: 100px;
-    margin-right: 1000px;
+    margin-top: 3.125rem;
+    margin-left: 6.25rem;
+    margin-right: 62.5rem;
 }
 
 .card:hover {
     
-    border: 3px solid rgba(0,0,0,0.8) ;
+    border: 0.188rem solid rgba(0,0,0,0.8) ;
     cursor: pointer;
     position: relative;
     transition: all 0.35s linear;
@@ -121,7 +123,7 @@ main {
 
 .oculto p {
     color: #ffffff;
-    margin: 50px;
+    margin: 3.125rem;
 }
 
 .card:hover .oculto{
@@ -142,11 +144,11 @@ main {
     text-decoration: none;
     display: inline-block;
     font-weight: bolder;
-    font-size: 16px;
-    padding: 10px 30px;
-    border-radius: 4px;
+    font-size: 1rem;
+    padding: 0.625rem 1.875rem;
+    border-radius: 0.25rem;
     position: absolute;
-    bottom: 20px;
+    bottom: 1.25rem;
     left: 50%;
     transform: translateX(-50%);
     
@@ -167,24 +169,24 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
    
    
 }
 
 .logofooter {
-    height: 70px;
+    height: 4.375rem;
     
 }
 
 .social li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     
 }
 
 .social li svg {
-    width: 30px;
+    width: 1.875rem;
     fill: #ffffff;
 }
 
