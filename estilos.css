@@ -8,7 +8,7 @@ body {
 /* HEADER */
 
 header {
-    height: 160rem;
+    height: 9.25rem;
     background-color: #EF798A;
     background-size: cover;
     background-position: center;
@@ -17,47 +17,51 @@ header {
     justify-content: space-between;
     padding: 0;
     margin: 0;
-    position: relative;
 }
 
-
+.svg-inline--fa {
+    display: none;
+}
 
 .logo {
     height: 6.25rem;
-    margin-left: 1.25rem;
-    margin-top: 0.625rem;
+    margin-top: 1.563rem;
+    margin-left: 3.125rem;
+}
+
+.NavegacionLink-mobile {
+    display: none;
+}
+
+input {
+    display: none;
 }
 
 .NavegacionLink {
-   position: absolute;
-    top: 2.813rem;
-    right: 4.375rem;
+    margin-top: 3.438rem;
 }
 
 .NavegacionLink li {
     display: inline;
     margin-right: 2.5rem;
-   
 }
 
 .NavegacionLink li svg {
-    height: 2.188rem;
+    height: 1.75rem;
     fill: #ffffff;
     margin-left: 0.313rem;
-
 }
 
-.NavegacionLink li svg:hover{
+.NavegacionLink li svg:hover {
     fill: #7B0828;
     transition: 0.5s;
-
 }
 
 .NavegacionLink a {
-    font-size: 1.25em;
+    font-size: 1.25rem;
 }
 
-.NavegacionLink a:hover {
+.NavegacionLink li a:hover {
     color: #7B0828;
     transition: 0.5s;
 }
@@ -70,16 +74,9 @@ a {
 
 .userlogo {
     height: 2.5rem;
-
 }
-
-
 
 /* MAIN */
-
-header {
-    height: 11.875rem;
-}
 
 main {
     display: flex;
@@ -89,19 +86,18 @@ main {
 
 .card {
     width: 25rem;
-    background-color:#fff;
+    background-color: #fff;
     font-family: 'Nunito', sans-serif;
     border: 0.188rem solid #ddd;
     padding: 1.875rem 1.25rem;
     color: #7B0828;
-    
-    
 }
 
 .foto {
     width: 100%;
     object-fit: cover;
 }
+
 .resumen {
     margin-top: 3.125rem;
     margin-left: 6.25rem;
@@ -109,14 +105,12 @@ main {
 }
 
 .card:hover {
-    
-    border: 0.188rem solid rgba(0,0,0,0.8) ;
+    border: 0.188rem solid rgba(0, 0, 0, 0.8);
     cursor: pointer;
     position: relative;
     transition: all 0.35s linear;
-    
-
 }
+
 .oculto {
     display: none;
 }
@@ -126,9 +120,9 @@ main {
     margin: 3.125rem;
 }
 
-.card:hover .oculto{
+.card:hover .oculto {
     display: block;
-    background-color:rgba(0,0,0,0.8) ;
+    background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -151,16 +145,12 @@ main {
     bottom: 1.25rem;
     left: 50%;
     transform: translateX(-50%);
-    
 }
-
-
-
-
 
 /* FOOTER */
 
 .PiePagina {
+    height: 7.125;
     font-family: 'Nunito', sans-serif;
     background-color: #EDAFB8;
     background-position: center;
@@ -170,23 +160,23 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 1.25rem;
-   
-   
+}
+
+.copyright {
+    font-size: 1.938rem;
 }
 
 .logofooter {
-    height: 4.375rem;
-    
+    height: 5.25rem;
 }
 
 .social li {
     display: inline;
     margin-right: 1.25rem;
-    
 }
 
 .social li svg {
-    width: 1.875rem;
+    width: 2rem;
     fill: #ffffff;
 }
 
@@ -195,5 +185,194 @@ main {
     transition: 0.5s;
 }
 
+/* TABLET VERTICAL */
+
+@media(max-width: 768px) {
+    header {
+        height: 100px;
+    }
+    .logo {
+        height: 65px;
+        margin-top: 18px;
+    }
+    .copyright {
+        font-size: 0.938rem;
+    }
+    .logofooter {
+        height: 3.125rem;
+    }
+    .NavegacionLink {
+        margin-top: 2.188rem;
+    }
+    .NavegacionLink li svg {
+        height: 1.25rem;
+    }
+    .card {
+        width: 100%;
+    }
+    .social li svg {
+        height: 1.25rem;
+    }
+    .social li {
+        margin-right: 0.625rem;
+    }
+    .PiePagina {
+        padding: 0.625rem;
+    }
+}
+
+/*TABLET HORIZONTAL*/
+
+/*
+@media(min-width: 1024px) {
+    header {
+        height: 119px;
+    }
+    .logo {
+        height: 5rem;
+        margin-left: 2.188rem;
+    }
+    .NavegacionLink {
+        margin-top: 3.125rem;
+    }
+    .NavegacionLink a {
+        font-size: 1.125rem;
+    }
+    .NavegacionLink li svg {
+        height: 1.25rem;
+    }
+    .NavegacionLink li {
+        margin-right: 1.563rem;
+    }
+    .PiePagina {
+        padding: 0.313rem 0.625rem 0 1.563rem;
+    }
+    .copyright {
+        font-size: 0.938rem;
+    }
+    .logofooter {
+        height: 2.188rem;
+    }
+    .social li {
+        margin-right: 0.938rem;
+    }
+    .social li svg {
+        height: 1.25rem;
+    }
+}
+
+/* S5 vertical */
+
+@media(max-width:640px){
+    header {
+        height: 65px;
+    }
+    .logo {
+        height: 50px;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+    .NavegacionLink {
+        margin-top: 19px;
+    }
+    .NavegacionLink a {
+        font-size: 17px;
+    }
+    
+        
+}
 
 
+
+/* IPHONE X HORIZONTAL */
+
+@media (max-width: 375px) {
+    header {
+        height: 75px;
+    }
+    .navbar {
+        position: relative;
+    }
+    .logo {
+        height: 50px;
+        margin: 15px 0 0 15px;
+    }
+    .svg-inline--fa {
+        display: flex;
+        height: 40px;
+        color: #fafafa;
+        padding: 15px 15px 0 0;
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    .svg-inline--fa:active {
+        color: #7B0828;
+    }
+    .NavegacionLink {
+        display: none;
+    }
+    .NavegacionLink-mobile {
+        position: absolute;
+        z-index: fixed;
+    }
+    .NavegacionLink-mobile li {
+        display: inline;
+        color: #fafafa;
+    }
+    input:checked~.NavegacionLink-mobile {
+        display: flex;
+        background-color: #EF798A;
+        width: 100px;
+        right: 0;
+        top: 59px;
+        flex-direction: column;
+        z-index: 1;
+        padding: 5px 6px 5px 12px;
+    }
+    .NavegacionLink-mobile a:hover {
+        color: #7B0828;
+    }
+    .PiePagina {
+        padding: 0px 5px 0px 10px;
+    }
+    .logofooter {
+        height: 30px;
+    }
+    .social {
+        display: flex;
+        padding: 0;
+    }
+    .social li {
+        margin-right: 3px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+/*S5 Vertical*/
+
+/*
+@media (min-width: 640px) {
+    header {
+        height: 65px;
+    }
+    .logo {
+        height: 50px;
+        padding-top: 8px;
+        margin-left: 30px;
+    }
+    .NavegacionLink {
+        margin-top: 20px;
+    }
+    .NavegacionLink a {
+        font-size: 15px;
+    }
+    .NavegacionLink li svg {
+        height: 15px;
+    }
+    .card {
+        width: 100%;
+        font-size: 13px;
+    }
+}
